@@ -1,0 +1,192 @@
+.portfolio {
+    background-color: #111;
+}
+
+.pad-header {
+    margin-top: 80px;
+}
+
+img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem 10rem;
+    gap: 30px;
+}
+
+.cert {
+    margin-inline: auto;
+    width: 50%;
+}
+
+.about-section {
+    height: 100vh;
+    padding: 0 100px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    padding: 40px 0;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.about-info p {
+    margin-top: 20px;
+    color: #bbb;
+}
+
+.about-info article p:first-child {
+    font-size: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.contact {
+    display: flex;
+    gap: 40px;
+    height: 100vh;
+    padding: 20px 100px 0;
+}
+
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    background-color: #666;
+    outline: none;
+    border: none;
+    margin-block: 10px;
+    padding: 15px;
+    color: #fff;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+color: #fff;
+}
+
+.contact-form textarea {
+    height: 30vh;
+}
+
+.mail1{
+    color: blue;
+    margin-top: 30px;
+}
+
+
+.mail2{
+    color: white;
+    margin-top: 10px;
+}
+
+
+.mail3{
+    color: blue;
+    margin-top:10px;
+}
+
+
+.mail4{
+    color: white;
+    margin-top: 10px;
+}
+
+
+.mail5{
+    color: white;
+    margin-top:10px;
+}
+
+
+.mail6{
+    color: blue;
+    margin-top: 10px;
+}
+
+.mail7{
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+.mail8{
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
+.mail9{
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+.mail10{
+    color: white;
+    margin-top: 10px;
+}
+
+video {
+    margin-bottom: 2rem;
+    width: 80%;
+}
+
+@media (max-width: 900px) {
+.portfolio-container {
+grid-template-columns: 1fr;
+padding: 10px 20px;}
+
+.cert {
+    height: 100vh;
+}
+.contact {
+    flex-direction: column;
+    padding-inline: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    gap: 15px;
+    height: auto;
+}
+.contact-form, .btn, .header {
+    width: 100%;
+}
+.about-section {
+    padding:0 20px;
+    height: auto;
+}.about-container {
+    flex-direction: column;
+}
+}
